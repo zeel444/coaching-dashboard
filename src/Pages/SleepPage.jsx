@@ -4,7 +4,7 @@ import { getAuth } from "firebase/auth";
 import { useAuthState } from "react-firebase-hooks/auth";
 import Navbar from "../Components/Navbar";
 import SleepGraph from "../Components/SleepGraph";
-import Header from "../Components/Header";
+import Header from  "../Components/Header";
 
 const SleepPage = () => {
   const [user] = useAuthState(getAuth());
